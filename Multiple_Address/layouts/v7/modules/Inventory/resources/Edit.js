@@ -2801,7 +2801,7 @@ Vtiger_Edit_Js("Inventory_Edit_Js", {
 		
 		if(record ==''){
 		if( moduleName== "PurchaseOrder")
-			jQuery("select[name='cf_890']").val('Russian office').trigger('change');
+			jQuery("select[name='cf_890']").val('Lithuanian office').trigger('change');
 			
 		if( moduleName== "Invoice")
 			jQuery("select[name='cf_890']").val('German office').trigger('change');

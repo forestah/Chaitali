@@ -309,7 +309,7 @@ class Vtiger_InventoryPDFController {
 		}	
 		
 		if($module == "PurchaseOrder" && $officeId =='')
-			$officeId = '2675';
+			$officeId = '2681';
 		if($module == "Invoice" && $officeId =='')
 			$officeId = '2676';
 		if($module == "Quotes" && $officeId =='')
@@ -338,7 +338,7 @@ class Vtiger_InventoryPDFController {
 				$addressValues = array();
 				$addressValues[] = $resultrow['address'];
 				if(!empty($resultrow['city'])) $addressValues[]= "\n".$resultrow['city'];
-				if(!empty($resultrow['state'])) $addressValues[]= ",".$resultrow['state'];
+				if(!empty($resultrow['state'])) $addressValues[]= ", ".$resultrow['state'];
 				if(!empty($resultrow['code'])) $addressValues[]= $resultrow['code'];
 				if(!empty($resultrow['country'])) $addressValues[]= "\n".$resultrow['country'];
 	
