@@ -287,7 +287,7 @@ if($_REQUEST['step'] == 2){
 						
 					</div>
 					<div class="wrap-input100 validate-input" data-validate="Enter Invoice number">
-						<input class="input100" type="text" name="inv_no" placeholder="Invoive number">
+						<input class="input100" type="text" name="inv_no" placeholder="Invoice number">
 						
 					</div>
 
